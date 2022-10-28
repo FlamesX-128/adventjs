@@ -1,7 +1,11 @@
 /** @typedef {{ value: number, left: Tree | null right: Tree | null }} Tree */
-/** @param {Tree} bigTree */
+
+/**
+ * @param {Tree} bigTree
+ * @returns {number}
+ */
 export default function countDecorations(bigTree) {
-    return bigTree.value 
+    return bigTree.value
         + (bigTree.right ? countDecorations(bigTree.right) : 0)
         + (bigTree.left ? countDecorations(bigTree.left) : 0)
 }
