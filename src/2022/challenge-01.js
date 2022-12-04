@@ -13,7 +13,3 @@ function wrapping(gifts) {
 console.log(
     wrapping(["Hello", "World", "in", "a", "frame"])
 )
-
-console.log(
-    wrapping(["a", "b", "c", "d", "e"])
-)
