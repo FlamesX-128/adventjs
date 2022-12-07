@@ -1,11 +1,4 @@
-/** @typedef {{ l: number, w: number: h: number }} Box */
-
-/**
- * Score: 170
- * @param {Box[]} boxes 
- * @returns 
- */
-function fitsInOneBox(boxes) {
+function fitsInOneBox(boxes: { l: number, w: number, h: number }[]): boolean {
     return boxes.sort(
         (a, b) => a.l * a.w * a.h - b.l * b.w * b.h
     ).every((box, i) => {
@@ -16,6 +9,9 @@ function fitsInOneBox(boxes) {
             : true
     })
 }
+
+// Only exporting the function to test it.
+export { fitsInOneBox }
 
 // Tests
 

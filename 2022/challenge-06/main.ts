@@ -14,27 +14,5 @@ function createCube(size: number): string {
     return head.concat(...tail).join('\n')
 }
 
-// Tests
-
-console.log(
-    createCube(3),
-    // output:
-    // /\_\
-    // \/_/
-
-    createCube(2),
-    // output:
-    //  /\_\_\
-    // /\/\_\_\
-    // \/\/_/_/
-    //  \/_/_/
-
-    createCube(3)
-    // output:
-    //   /\_\_\_\
-    //  /\/\_\_\_\
-    // /\/\/\_\_\_\
-    // \/\/\/_/_/_/
-    //  \/\/_/_/_/
-    //   \/_/_/_/
-)
+// Only exporting the function to test it.
+export { createCube }
