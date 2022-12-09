@@ -1,18 +1,26 @@
-// Fast solution by github.com/alexisg24/adventjs-2022-challenge
 function getMaxGifts(giftsCities: number[], maxGifts: number, maxCities: number): number {
-    return Math.max(
-        ...[...giftsCities.reduce(
-            (x: number[][], y: number) => x.concat(x.map(
-                (x: number[]) => [y].concat(x)
-            )), [[]])
-        ].filter(
-            (item) => item.length <= maxCities
-        ).map(
-            (subset) => subset.reduce((a: number, b: number) => a + b, 0)
-        ).filter(
-            (item) => item <= maxGifts
-        )
-    );
+    const sort = giftsCities.sort((a, b) => b - a);
+
+    const size = sort.length < maxCities
+        ? sort.length
+        : maxCities;
+
+    // deno-lint-ignore no-inferrable-types
+    return (function _(arr: number[], n: number, m: number, i: number = 0): number {
+        if (i >= n) return 0
+
+        return arr.reduce((acc, curr, index) => {
+            if (m === 0) return acc
+    
+            const data = _(arr.slice(index + 1), n, m - curr, i + 1)
+            const sum = data + curr
+    
+            return sum > acc && sum <= m
+                ? sum
+                : acc
+        }, 0)
+    })(sort, size, maxGifts)
+
 }
 
 // Only exporting the function to test it.

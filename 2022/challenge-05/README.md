@@ -47,4 +47,4 @@ getMaxGifts([50, 70, 30], 100, 4) // 100
 
 ## 📜 Results
 
-![adventjs](https://user-images.githubusercontent.com/78381898/206295513-de88f1c7-2fc1-4101-99f2-b1653b10838e.png)
+![adventjs](https://user-images.githubusercontent.com/78381898/206607410-824cbfe6-1906-4748-9c76-68b07c265661.png)
