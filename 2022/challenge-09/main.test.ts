@@ -8,7 +8,7 @@ import { countTime } from './main.ts'
 
 Deno.test('2022-008-001', () => assertEquals(
     countTime([0, 1, 0, 0, 1]),
-    7
+    14
 ))
 
 Deno.test('2022-008-002', () => assertEquals(

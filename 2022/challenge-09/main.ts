@@ -1,3 +1,4 @@
+// Based on pabloc54#6798's solution.
 function countTime(leds: number[]): number {
     const arr = leds.join('').split('1');
   
