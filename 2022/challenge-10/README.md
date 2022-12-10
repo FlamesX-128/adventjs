@@ -1,4 +1,4 @@
-# Challenge #8: We need a mechanic!
+# Challenge #10: The Santa Claus sleigh jump
 
 ## 📖 Instructions
 
@@ -41,4 +41,5 @@ We need the program to return a `boolean` that indicates whether the sleigh make
 
 ## 📜 Results
 
+![adventjs](https://user-images.githubusercontent.com/78381898/206879725-6bae3bbc-8a7b-4e05-a850-77d3a48c49e0.png)
 

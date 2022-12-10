@@ -1,4 +1,4 @@
-# Challenge #8: We need a mechanic!
+# Challenge #9: Crazy Xmas lights
 
 ## 📖 Instructions
 

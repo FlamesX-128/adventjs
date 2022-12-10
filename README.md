@@ -58,6 +58,9 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 07  |          Doing gifts inventory           |       🟢       | [Show](https://adventjs.dev/challenges/2022/7) |
 | 08  |           We need a mechanic!            |       🟠       | [Show](https://adventjs.dev/challenges/2022/8) |
 | 09  |            Crazy Xmas lights             |       🟢       | [Show](https://adventjs.dev/challenges/2022/9) |
+| 10  |       The Santa Claus sleigh jump        |       🟢       | [Show](https://adventjs.dev/challenges/2022/10) |
+
+
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
