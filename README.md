@@ -59,8 +59,7 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 08  |           We need a mechanic!            |       🟠       | [Show](https://adventjs.dev/challenges/2022/8) |
 | 09  |            Crazy Xmas lights             |       🟢       | [Show](https://adventjs.dev/challenges/2022/9) |
 | 10  |       The Santa Claus sleigh jump        |       🟢       | [Show](https://adventjs.dev/challenges/2022/10) |
-
-
+| 11  |       Santa Claus is Scrum Master        |       🔴       | [Show](https://adventjs.dev/challenges/2022/11) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
