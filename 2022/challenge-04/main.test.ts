@@ -6,7 +6,7 @@ import { fitsInOneBox } from './main.ts'
 // Second number: Challenge number
 // Third number: Test number
 
-Deno.test('2022-003-001', () => assertEquals(
+Deno.test('2022-004-001', () => assertEquals(
     fitsInOneBox([
         { l: 1, w: 1, h: 10 },
         { l: 3, w: 3, h: 12 },
@@ -15,7 +15,7 @@ Deno.test('2022-003-001', () => assertEquals(
     false
 ))
 
-Deno.test('2022-003-002', () => assertEquals(
+Deno.test('2022-004-002', () => assertEquals(
     fitsInOneBox([
         { l: 1, w: 1, h: 1 },
         { l: 2, w: 2, h: 2 }
@@ -23,7 +23,7 @@ Deno.test('2022-003-002', () => assertEquals(
     true
 ))
 
-Deno.test('2022-003-003', () => assertEquals(
+Deno.test('2022-004-003', () => assertEquals(
     fitsInOneBox([
         { l: 1, w: 1, h: 1 },
         { l: 2, w: 2, h: 2 },
