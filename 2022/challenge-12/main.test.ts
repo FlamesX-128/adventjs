@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.167.0/testing/asserts.ts"
 
-import { selectSleigh } from './mod.ts'
+import { selectSleigh } from './main.ts'
 
 // First number: Edition number
 // Second number: Challenge number
