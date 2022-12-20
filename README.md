@@ -66,6 +66,9 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 15  |      Decorating the Christmas tree       |       🟠       | [Show](https://adventjs.dev/challenges/2022/15) |
 | 16  |       Fixing Santa Claus' letters        |       🔴       | [Show](https://adventjs.dev/challenges/2022/16) |
 | 17  |          Carrying gifts in bags          |       🟠       | [Show](https://adventjs.dev/challenges/2022/17) |
+| 18  |            We ran out of ink!            |       🟢       | [Show](https://adventjs.dev/challenges/2022/18) |
+| 19  |             Sorting the toys!            |       🟢       | [Show](https://adventjs.dev/challenges/2022/19) |
+| 20  |          More challenging trips          |       🔴       | [Show](https://adventjs.dev/challenges/2022/20) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
