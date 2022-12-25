@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "ampcpmgp.cognitive-complexity-show",
         "denoland.vscode-deno"
     ]
 }
