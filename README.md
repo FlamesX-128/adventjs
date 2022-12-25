@@ -72,7 +72,7 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 21  |         Creating the gifts table         |       🟠       | [Show](https://adventjs.dev/challenges/2022/21) |
 | 22  |            The lights in sync            |       🟢       | [Show](https://adventjs.dev/challenges/2022/22) |
 | 23  |           Santa Claus Compiler           |       🔴       | [Show](https://adventjs.dev/challenges/2022/23) |
-| 24  |       The last challenge is a maze       |       -        | [Show](https://adventjs.dev/challenges/2022/24) |
+| 24  |       The last challenge is a maze       |       🔴       | [Show](https://adventjs.dev/challenges/2022/24) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
