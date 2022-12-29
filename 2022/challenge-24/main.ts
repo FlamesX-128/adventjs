@@ -7,8 +7,8 @@ function canExit(maze: Maze[][]): boolean {
     const prev = [...maze];
 
     maze.forEach((_, y) => maze[y] = [
-        ...maze[y].join('').replace(/[ E]?S|S[ E]?/g,
-            (match: string) => 'SS'.repeat(match.length)
+        ...maze[y].join('').replace(/[ E]?((?=S)|(?<=S))[ E]?/g,
+            (match: string) => 'S'.repeat(match.length)
         )
     ] as Maze[]);
 
