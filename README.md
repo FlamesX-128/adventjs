@@ -80,4 +80,5 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 
 ## Acknowledgments
 
+- [AdventJS Community](https://discord.gg/midudev#915910832259477534)
 - [borjapazr/awesome-adventjs](https://github.com/borjapazr/awesome-adventjs)
