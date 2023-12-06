@@ -1,4 +1,5 @@
 # AdventJS
+
 All [AdventJS](https://adventjs.dev/) challenges solved.
 
 ## 🦠 2021
@@ -41,7 +42,7 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 
 ## 🤖 2022
 
-<details open>
+<details>
 
 <summary>Show / Hide</summary>
 
@@ -73,6 +74,24 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 22  |            The lights in sync            |       🟢       | [Show](https://adventjs.dev/challenges/2022/22) |
 | 23  |           Santa Claus Compiler           |       🔴       | [Show](https://adventjs.dev/challenges/2022/23) |
 | 24  |       The last challenge is a maze       |       🔴       | [Show](https://adventjs.dev/challenges/2022/24) |
+
+</details>
+
+## ⚡️ 2023
+
+<details open>
+
+<summary>Show / Hide</summary>
+
+### 🕹️ Challenges
+
+|  #  |          Challenge          | Difficulty[^1] |                  Description                   |
+| :-: | :-------------------------: | :------------: | :--------------------------------------------: |
+| 01  |    First gift repeated!     |       🟢       | [Show](https://adventjs.dev/challenges/2023/1) |
+| 02  |    We start the factory     |       🟢       | [Show](https://adventjs.dev/challenges/2023/2) |
+| 03  |       The naughty elf       |       🟢       | [Show](https://adventjs.dev/challenges/2023/3) |
+| 04  | Turn the parentheses around |       🟠       | [Show](https://adventjs.dev/challenges/2023/4) |
+| 05  |     Santa's CyberTruck      |       🟠       | [Show](https://adventjs.dev/challenges/2023/5) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
