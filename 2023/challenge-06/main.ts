@@ -1,23 +1,25 @@
 function maxDistance(movements: string) {
-    const steps = [...movements]
+    const movementValues: Record<string, number> = {
+        '<': -1,
+        '>': 1,
+    };
 
-    let i = 0
-    let j = 0
+    const steps = [...movements];
+
+    let a = 0;
+    let b = 0;
 
     for (const step of steps) {
-        switch (step) {
-            case '>':
-                i++
-                break
-            case '<':
-                i--
-                break
-            default:
-                j++
+        if (step !== '*') {
+            a += movementValues[step];
+            
+            continue
         }
+
+        b++
     }
 
-    return Math.abs(i) + j
+    return Math.abs(a) + b;
 }
 
 export { maxDistance }
