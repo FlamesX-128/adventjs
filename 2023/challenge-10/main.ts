@@ -9,7 +9,7 @@ function _createChristmasTree(ornaments: string, height: number): string {
         let row = ' '.repeat(height - i);
 
         for (let j = 0; j < i; j++) {
-            row += ornaments[pointer++ % overflow] + ' '
+            row += ornaments[pointer++ % overflow] + ' ';
         }
 
         tree += row.trimEnd() + '\n';
@@ -30,7 +30,7 @@ function createChristmasTree(ornaments: string, height: number): string {
         let row = ' '.repeat(height - i);
 
         for (const _ of ' '.repeat(i)) {
-            row += ornaments[pointer++ % overflow] + ' '
+            row += ornaments[pointer++ % overflow] + ' ';
         }
 
         tree += row.trimEnd() + '\n';
