@@ -97,6 +97,7 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 08  |     Sorting the warehouse      |       🟠       | [Show](https://adventjs.dev/challenges/2023/8)  |
 | 09  |       Switch the lights        |       🟢       | [Show](https://adventjs.dev/challenges/2023/9)  |
 | 10  | Create your own Christmas tree |       🟢       | [Show](https://adventjs.dev/challenges/2023/10) |
+| 11  |       The studious elves       |       🟠       | [Show](https://adventjs.dev/challenges/2023/11) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
