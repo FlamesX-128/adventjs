@@ -1,36 +1,69 @@
+// Cognitive complexity: 2, lower score, and more realistic.
+function _drawGift(size: number, symbol: string) {
+    if (size < 2) {
+        return '#'.repeat(size) + '\n';
+    }
+
+    const spaceCount = size - 2;
+    let symbolCount = 0;
+
+    const lines = [
+        ' '.repeat(size - 1) + '#'.repeat(size)
+    ];
+
+    while (symbolCount < spaceCount) {
+        lines.push(
+            ' '.repeat(spaceCount - symbolCount)
+                + '#' + symbol.repeat(spaceCount)
+                + '#' + symbol.repeat(symbolCount++)
+                + '#'
+        );
+    }
+
+    lines.push(
+        '#'.repeat(size)
+            + symbol.repeat(spaceCount)
+            + '#'
+    );
+
+    for (const str of lines.slice(0, -1).reverse()) {
+        lines.push(str.replace(/\s+/, ''));
+    }
+
+    return lines.join('\n') + '\n';
+}
+
+// Cognitive complexity: 2, better score, and least realistic.
 function drawGift(size: number, symbol: string) {
     if (size < 2) {
         return '#'.repeat(size) + '\n';
     }
 
-    const lines = [];
+    const spaceCount = size - 2;
+    let symbolCount = 0;
 
-    // First, draw the top part of the gift box.
-    lines.push(' '.repeat(size - 1) + '#'.repeat(size));
+    const lines = [
+        ' '.repeat(size - 1) + '#'.repeat(size)
+    ];
 
-    // Draw the remaining top part of the gift box.
-    for (let i = 1; i < size - 1; i++) {
+    for (const _ of ' '.repeat(spaceCount)) {
         lines.push(
-            ' '.repeat(size - i - 1)
-                + '#' + symbol.repeat(size - 2)
-                + '#' + symbol.repeat(i - 1)
+            ' '.repeat(spaceCount - symbolCount)
+                + '#' + symbol.repeat(spaceCount)
+                + '#' + symbol.repeat(symbolCount++)
                 + '#'
-        )
+        );
     }
 
-    // Draw the middle part of the gift box.
     lines.push(
-        '#'.repeat(size) + symbol.repeat(size - 2) + '#'
+        '#'.repeat(size)
+            + symbol.repeat(spaceCount)
+            + '#'
     );
 
-    // Reverse the top part to create the other half of the gift box.
-    lines.push(
-        ...lines.slice(0, -1)
-            .map(
-                (str) => str.replace(/\s+/, '')
-            )
-            .reverse()
-    );
+    for (const str of lines.slice(0, -1).reverse()) {
+        lines.push(str.replace(/\s+/, ''));
+    }
 
     return lines.join('\n') + '\n';
 }
