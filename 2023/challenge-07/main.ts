@@ -69,4 +69,3 @@ function drawGift(size: number, symbol: string) {
 }
 
 export { drawGift };
-
