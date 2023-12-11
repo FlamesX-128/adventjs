@@ -33,7 +33,7 @@ function _drawGift(size: number, symbol: string) {
     return lines.join('\n') + '\n';
 }
 
-// Cognitive complexity: 2, better score, and least realistic.
+// Cognitive complexity: 2, better score, and less realistic.
 function drawGift(size: number, symbol: string) {
     if (size < 2) {
         return '#'.repeat(size) + '\n';

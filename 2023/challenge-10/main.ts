@@ -1,4 +1,4 @@
-// More complexity, lower score, but more realistic.
+// Cognitive complexity: 3, lower score, and more realistic.
 function _createChristmasTree(ornaments: string, height: number): string {
     const overflow = ornaments.length;
 
@@ -18,7 +18,7 @@ function _createChristmasTree(ornaments: string, height: number): string {
     return tree += ' '.repeat(height - 1) + '|\n';
 }
 
-// Cognitive complexity: 1, Better Score
+// Cognitive complexity: 1, better score, and less realistic.
 function createChristmasTree(ornaments: string, height: number): string {
     const overflow = ornaments.length;
     let tree = '';
