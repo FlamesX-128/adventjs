@@ -1,4 +1,4 @@
-// Cognitive complexity: 2, lower score, and more realistic.
+// Cognitive complexity: 3, lower score, and more realistic.
 function _drawGift(size: number, symbol: string) {
     if (size < 2) {
         return '#'.repeat(size) + '\n';
