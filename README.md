@@ -98,6 +98,7 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 09  |       Switch the lights        |       🟢       | [Show](https://adventjs.dev/challenges/2023/9)  |
 | 10  | Create your own Christmas tree |       🟢       | [Show](https://adventjs.dev/challenges/2023/10) |
 | 11  |       The studious elves       |       🟠       | [Show](https://adventjs.dev/challenges/2023/11) |
+| 12  |       Is it a valid copy       |       🟠       | [Show](https://adventjs.dev/challenges/2023/12) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
