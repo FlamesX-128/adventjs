@@ -1,6 +1,6 @@
 # AdventJS
 
-All [AdventJS](https://adventjs.dev/) challenges solved.
+Every [AdventJS](https://adventjs.dev/) challenge solved.
 
 ## 🦠 2021
 
