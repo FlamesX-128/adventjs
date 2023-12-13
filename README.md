@@ -99,6 +99,7 @@ All [AdventJS](https://adventjs.dev/) challenges solved.
 | 10  | Create your own Christmas tree |       🟢       | [Show](https://adventjs.dev/challenges/2023/10) |
 | 11  |       The studious elves       |       🟠       | [Show](https://adventjs.dev/challenges/2023/11) |
 | 12  |       Is it a valid copy       |       🟠       | [Show](https://adventjs.dev/challenges/2023/12) |
+| 13  |      Calculating the time      |       🟢       | [Show](https://adventjs.dev/challenges/2023/13) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
