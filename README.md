@@ -100,6 +100,7 @@ Every [AdventJS](https://adventjs.dev/) challenge solved.
 | 11  |       The studious elves       |       🟠       | [Show](https://adventjs.dev/challenges/2023/11) |
 | 12  |       Is it a valid copy       |       🟠       | [Show](https://adventjs.dev/challenges/2023/12) |
 | 13  |      Calculating the time      |       🟢       | [Show](https://adventjs.dev/challenges/2023/13) |
+| 14  |        Avoid the alarm         |       🟠       | [Show](https://adventjs.dev/challenges/2023/14) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
