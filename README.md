@@ -102,6 +102,7 @@ Every [AdventJS](https://adventjs.dev/) challenge solved.
 | 13  |      Calculating the time      |       🟢       | [Show](https://adventjs.dev/challenges/2023/13) |
 | 14  |        Avoid the alarm         |       🟠       | [Show](https://adventjs.dev/challenges/2023/14) |
 | 15  |        Autonomous robot        |       🟠       | [Show](https://adventjs.dev/challenges/2023/15) |
+| 16  |       Friday deployment        |       🟢       | [Show](https://adventjs.dev/challenges/2023/16) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
