@@ -101,6 +101,7 @@ Every [AdventJS](https://adventjs.dev/) challenge solved.
 | 12  |       Is it a valid copy       |       🟠       | [Show](https://adventjs.dev/challenges/2023/12) |
 | 13  |      Calculating the time      |       🟢       | [Show](https://adventjs.dev/challenges/2023/13) |
 | 14  |        Avoid the alarm         |       🟠       | [Show](https://adventjs.dev/challenges/2023/14) |
+| 15  |        Autonomous robot        |       🟠       | [Show](https://adventjs.dev/challenges/2023/15) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
