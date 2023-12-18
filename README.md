@@ -103,6 +103,8 @@ Every [AdventJS](https://adventjs.dev/) challenge solved.
 | 14  |        Avoid the alarm         |       🟠       | [Show](https://adventjs.dev/challenges/2023/14) |
 | 15  |        Autonomous robot        |       🟠       | [Show](https://adventjs.dev/challenges/2023/15) |
 | 16  |       Friday deployment        |       🟢       | [Show](https://adventjs.dev/challenges/2023/16) |
+| 17  |     Optimizing the rental      |       🟢       | [Show](https://adventjs.dev/challenges/2023/17) |
+| 18  |       The digital clock        |       🔴       | [Show](https://adventjs.dev/challenges/2023/18) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
