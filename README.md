@@ -105,6 +105,9 @@ Every [AdventJS](https://adventjs.dev/) challenge solved.
 | 16  |       Friday deployment        |       🟢       | [Show](https://adventjs.dev/challenges/2023/16) |
 | 17  |     Optimizing the rental      |       🟢       | [Show](https://adventjs.dev/challenges/2023/17) |
 | 18  |       The digital clock        |       🔴       | [Show](https://adventjs.dev/challenges/2023/18) |
+| 19  |       Face the sabotage        |       🟠       | [Show](https://adventjs.dev/challenges/2023/19) |
+| 20  |     Distribute the weight      |       🔴       | [Show](https://adventjs.dev/challenges/2023/20) |
+| 21  |         Binary message         |       🟠       | [Show](https://adventjs.dev/challenges/2023/21) |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
