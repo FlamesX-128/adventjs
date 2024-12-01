@@ -79,7 +79,7 @@ Every [AdventJS](https://adventjs.dev/) challenge solved.
 
 ## ⚡️ 2023
 
-<details open>
+<details>
 
 <summary>Show / Hide</summary>
 
@@ -112,6 +112,22 @@ Every [AdventJS](https://adventjs.dev/) challenge solved.
 | 23  |        Christmas dinner        |       🟢       | [Show](https://adventjs.dev/challenges/2023/23) |
 | 24  |       Jump on the stairs       |       🟠       | [Show](https://adventjs.dev/challenges/2023/24) |
 | 25  |     Calculating distances      |       🟠       | [Show](https://adventjs.dev/challenges/2023/25) |
+
+[^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
+
+</details>
+
+## 🚀 2024
+
+<details open>
+
+<summary>Show / Hide</summary>
+
+### 🕹️ Challenges
+
+|  #  |           Challenge            | Difficulty[^1] |                   Description                   |
+| :-: | :----------------------------: | :------------: | :---------------------------------------------: |
+| 01  |      First gift repeated!      |       🟢       | [Show](https://adventjs.dev/challenges/2024/1)  |
 
 [^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
 
