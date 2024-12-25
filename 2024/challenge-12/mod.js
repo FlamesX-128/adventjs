@@ -1,5 +1,10 @@
-function calculatePrice(ornaments: string): number | undefined {
-    const patterns: Record<string, number> = {
+/**
+ * @param {string} ornaments
+ * @returns {number | undefined}
+ */
+function calculatePrice(ornaments) {
+    /** @type {Record<string, number>} */
+    const patterns = {
         '*': 1,
         'o': 5,
         '^': 10,
