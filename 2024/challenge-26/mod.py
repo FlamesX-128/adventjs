@@ -6,9 +6,6 @@ def get_completed(time_worked, total_time):
     worked_seconds = parse_time(time_worked)
     total_seconds = parse_time(total_time)
 
-    if total_seconds == 0:
-        return '0%'
-    
     percentage = round(worked_seconds / total_seconds * 100)
     
     return f"{percentage}%"

@@ -7,10 +7,6 @@ function getCompleted(timeWorked: string, totalTime: string): string {
     const workedSeconds = parseTime(timeWorked);
     const totalSeconds = parseTime(totalTime);
 
-    // Prevent division by zero if totalTime is "00:00:00" 
-    // (though it might be an edge case not needed here).
-    if (totalSeconds === 0) return '0%';
-
     const percentage = Math.round((workedSeconds / totalSeconds) * 100);
     return `${percentage}%`;
 }

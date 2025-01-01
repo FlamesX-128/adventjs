@@ -17,8 +17,6 @@ function getCompleted(timeWorked, totalTime) {
     const workedSeconds = parseTime(timeWorked);
     const totalSeconds = parseTime(totalTime);
 
-    if (totalSeconds === 0) return '0%';
-
     const percentage = Math.round((workedSeconds / totalSeconds) * 100);
     return `${percentage}%`;
 }
